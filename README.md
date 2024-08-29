@@ -1,6 +1,7 @@
 # **Lagrangian Particle Fluid Benchmark Open Dataset**
  
-![](https://ai-studio-static-online.cdn.bcebos.com/433a5637354940f48f383b6e4d356db0ad0a976f1d4c4bc8b1d45b52f4d5c702)
+<img src="https://ai-studio-static-online.cdn.bcebos.com/433a5637354940f48f383b6e4d356db0ad0a976f1d4c4bc8b1d45b52f4d5c702" alt="Description" width="100%" height="100%"/>
+
 * **Lagrangian particle methods for PDE solvers have natural advantages in handling free surface or complex fluid-solid interactions.**
 
 * **Establishing a comprehensive and diverse public benchmark dataset will greatly benefit the comparison of different scientific AI models and the improvement of existing models. This project uses Taichi open-source SPH, MPM, and DEM particle solvers to generate datasets for granular flows, dam breaks, Taylor-Green vortices, lid-driven cavity flows, jets, and more for training and evaluating advanced AI learners.**
@@ -9,8 +10,8 @@
 # 1 Introduction to Methods
  
 ## **1.1 SPH**
- 
-![](https://ai-studio-static-online.cdn.bcebos.com/c16478b148234dc98efea6c2862e0d2c8f13b26b265d466495b2d190a919332b)
+
+<img src="https://ai-studio-static-online.cdn.bcebos.com/c16478b148234dc98efea6c2862e0d2c8f13b26b265d466495b2d190a919332b" alt="Description" width="100%" height="100%"/>
 
 * **SPH（Smoothed Particle Hydrodynamics）**
 is a particle-based numerical method primarily used for simulating fluid dynamics. Initially developed to simulate galaxy motion in astrophysics, it is now widely used in computational fluid dynamics, structural mechanics, and other fields.
@@ -24,8 +25,8 @@ It is primarily used in fluid dynamics simulations, such as hydrodynamics, ocean
 The above figure shows the simulation of SPH incompressible fluid, cited from Mackin M, Muller M. Position based fluids. ACM Trans.on Graphics, 2013, 32 (4): 104. [doi. 10.1145/2461912.2461984]
  
 ## **1.2 DEM**
- 
-![](https://ai-studio-static-online.cdn.bcebos.com/3028fbe80b0043c5b235dc1f3f821da97501695246cc4d2aabfc3422e9bc69e2)
+
+<img src="https://ai-studio-static-online.cdn.bcebos.com/3028fbe80b0043c5b235dc1f3f821da97501695246cc4d2aabfc3422e9bc69e2" alt="Description" width="100%" height="100%"/>
 
 * **DEM（Discrete Element Method）**
  is a numerical method used to simulate the mechanical behavior of granular materials. It treats granular materials as collections of many discrete particles, and by simulating the interactions between these particles, it can study the deformation, flow, and collision behavior of granular materials under different conditions.
@@ -37,7 +38,7 @@ Suitable for simulating the behavior of granular materials, such as granular flo
 The above figure shows the numerical simulation of an industrial fluidized bed (CFB) reactor using Fluent (DDPM+DEM)
 ## **1.3 MPM**
  
-![](https://ai-studio-static-online.cdn.bcebos.com/e6f6ff42a2ba4d0dbab86b5723a93fd8f914d773a1b74114aa8c9809623fb5a1)
+<img src="https://ai-studio-static-online.cdn.bcebos.com/e6f6ff42a2ba4d0dbab86b5723a93fd8f914d773a1b74114aa8c9809623fb5a1" alt="Description" width="100%" height="100%"/>
 
 * **MPM（Material Point Method）**
 is a numerical method used for simulating material deformation and fluid-solid interactions. It is a hybrid method combining characteristics of Lagrangian and Eulerian approaches, primarily used for handling large deformations, multiphase flows, material breakage, and more.
@@ -100,13 +101,23 @@ python renderer_3D.py
 python MPM_Taichi/run_mpm.py --input_path=MPM_Taichi/examples/slope_sand/inputs_2d_gns.json
 ```
  
-![](https://ai-studio-static-online.cdn.bcebos.com/fbab9e3129b946cfb1b46e284a662fb005792bc8704f4d948054c25800a78315)
+<img src="<img src="https://ai-studio-static-online.cdn.bcebos.com/fbab9e3129b946cfb1b46e284a662fb005792bc8704f4d948054c25800a78315" alt="Description" width="100%" height="100%"/>" alt="Description" width="100%" height="100%"/>
 
  
 **DEM Example**
 
-![](https://ai-studio-static-online.cdn.bcebos.com/5c09cfa69b334a4583c54d41387c7640f7d1fd5397e24b44b6b6f97b06fe83b7)
-![](https://ai-studio-static-online.cdn.bcebos.com/489eb25cdc404ed9aa021a347d5d93135bf390847cac4e03a50172dddc886d81)
+<table width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://ai-studio-static-online.cdn.bcebos.com/5c09cfa69b334a4583c54d41387c7640f7d1fd5397e24b44b6b6f97b06fe83b7" alt="Goop 3D GIF" width="100%" height="300px"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://ai-studio-static-online.cdn.bcebos.com/489eb25cdc404ed9aa021a347d5d93135bf390847cac4e03a50172dddc886d81" alt="Water Sand Goop 2D GIF" width="100%" height="300px"/>
+    </td>
+  </tr>
+</table>
+
+
 
  
 # 4 Dataset Description
