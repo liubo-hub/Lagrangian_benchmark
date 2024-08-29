@@ -101,9 +101,8 @@ python renderer_3D.py
 python MPM_Taichi/run_mpm.py --input_path=MPM_Taichi/examples/slope_sand/inputs_2d_gns.json
 ```
  
-<img src="https://ai-studio-static-online.cdn.bcebos.com/fbab9e3129b946cfb1b46e284a662fb005792bc8704f4d948054c25800a78315" alt="Description" width="90%" height="auto"/>" alt="Description" width="100%" height="100%"/>
+<img src="https://ai-studio-static-online.cdn.bcebos.com/fbab9e3129b946cfb1b46e284a662fb005792bc8704f4d948054c25800a78315" alt="Description" width="90%" height="auto"/>
 
- 
 **DEM Example**
 
 <table width="100%">
@@ -142,15 +141,15 @@ python MPM_Taichi/run_mpm.py --input_path=MPM_Taichi/examples/slope_sand/inputs_
 
 **MPM generation (gns training inference):**
 
-<img src="https://ai-studio-static-online.cdn.bcebos.com/d01e99165f6746f785b307a49efa5f13545571962e0046e58a1615976ba7f651" alt="Description" width="90%" height="auto"/>"
+<img src="https://ai-studio-static-online.cdn.bcebos.com/d01e99165f6746f785b307a49efa5f13545571962e0046e58a1615976ba7f651" alt="Description" width="90%" height="auto"/>
  
 **DEM generation (gns training inference):**
 
-<img src="https://ai-studio-static-online.cdn.bcebos.com/fcbd8f4d3e9e47bc8327521ddd43ff6cb8d54a0707df4c058c5c8651b0765f15" alt="Description" width="60%" height="auto"/>"
+<img src="https://ai-studio-static-online.cdn.bcebos.com/fcbd8f4d3e9e47bc8327521ddd43ff6cb8d54a0707df4c058c5c8651b0765f15" alt="Description" width="60%" height="80%"/>
  
 **DEM multi-component particles (yellow particles have three times the density of blue particles):**
  
-<img src="https://ai-studio-static-online.cdn.bcebos.com/844d3bf1f81548938344af4a29a27d976a8ca75c8bbb44c4bff6326e4836b62e" alt="Description" width="90%" height="auto"/>"
+<img src="https://ai-studio-static-online.cdn.bcebos.com/844d3bf1f81548938344af4a29a27d976a8ca75c8bbb44c4bff6326e4836b62e" alt="Description" width="90%" height="auto"/>
 
 **DEM 3D baffle (training inference):**
 
