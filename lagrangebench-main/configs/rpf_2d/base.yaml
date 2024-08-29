@@ -1,0 +1,4 @@
+extends: /home/aistudio/lagrangebench-main/configs/defaults.yaml
+
+data_dir: /home/aistudio/lagrangebench-main/datasets/2D_RPF_3200_20kevery100
+wandb_project: rpf_2d

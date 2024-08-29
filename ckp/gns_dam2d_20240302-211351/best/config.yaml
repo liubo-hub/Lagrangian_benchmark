@@ -1,0 +1,72 @@
+batch_size: 1
+ckp_dir: ckp
+config: /home/aistudio/lagrangebench-main/configs/dam_2d/gns.yaml
+data_dir: /home/aistudio/dataset/2D_DAM_5740_20kevery100
+eval_n_trajs: 50
+eval_n_trajs_infer: 375
+eval_steps: 10000
+extends: null
+f64: true
+gpu: 0
+has_external_force: false
+input_seq_length: 6
+isotropic_norm: false
+latent_dim: 128
+lmax_attributes: 1
+lmax_hidden: 1
+log_steps: 1000
+loss_weight:
+  acc: 1.0
+lr_decay_rate: 0.1
+lr_decay_steps: 100000.0
+lr_final: 1.0e-06
+lr_start: 0.0005
+magnitude_features: false
+metrics:
+- mse
+metrics_infer:
+- mse
+- sinkhorn
+- e_kin
+metrics_stride: 10
+metrics_stride_infer: 1
+mode: all
+model: gns
+model_dir: null
+n_extrap_steps: 0
+n_rollout_steps: 20
+neighbor_list_backend: jaxmd_vmap
+neighbor_list_multiplier: 2.0
+new_checkpoint: ckp/gns_dam2d_20240302-211351
+noise_std: 0.001
+num_mlp_layers: 2
+num_mp_steps: 10
+num_workers: 4
+out_type: none
+out_type_infer: pkl
+pushforward:
+  probs:
+  - 18
+  - 2
+  - 1
+  - 1
+  steps:
+  - -1
+  - 200000
+  - 300000
+  - 400000
+  unrolls:
+  - 0
+  - 1
+  - 2
+  - 3
+rollout_dir: null
+seed: 0
+segnn_norm: none
+step_max: 500000
+test: false
+velocity_aggregate: avg
+wandb: false
+wandb_entity: lagrangebench
+wandb_project: dam_2d
+xla_mem_fraction: 0.75
